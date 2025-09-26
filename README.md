@@ -18,6 +18,7 @@ The goal is to **automate the entire workflow** across all stages while ensuring
 Together, these components form an integrated **DevOps + GitOps workflow** that enables multiple teams to manage both their infrastructure and applications in a secure, scalable, and production-ready manner.
 
 ## Architecture
+
 ![Architecture](./architecture.png)
 
 The EKS cluster will be deployed as IPv6 only version, on two private subnets in a dual stack VPC. Although the cluster uses IPv6 only, some of the EKS API components and most AWS services support IPv4 or dual stack (IPv4 and IPv6 should exist), hence Egress-Only Gateway and NAT gateway are mapped to the private subnets to allow internet access.
