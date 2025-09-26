@@ -1,0 +1,18 @@
+[submodule "eks-enterprise-application-backend"]
+	path = eks-enterprise-application-backend
+	url = https://github.com/obreo/eks-enterprise-application-backend.git
+[submodule "eks-enterprise-application-frontend"]
+	path = eks-enterprise-application-frontend
+	url = https://github.com/obreo/eks-enterprise-application-frontend.git
+[submodule "iac-modules"]
+	path = iac-modules
+	url = https://github.com/obreo/iac-modules.git
+[submodule "eks-enterprise-kubernetes"]
+	path = eks-enterprise-kubernetes
+	url = https://github.com/obreo/eks-enterprise-kubernetes
+[submodule "eks-enterprise-terraform-vpc"]
+	path = eks-enterprise-terraform-vpc
+	url = https://github.com/obreo/eks-enterprise-terraform-vpc.git
+[submodule "eks-enterprise-terraform-eks"]
+	path = eks-enterprise-terraform-eks
+	url = https://github.com/obreo/eks-enterprise-terraform-eks.git
