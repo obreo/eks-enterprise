@@ -31,7 +31,7 @@ This architecture is based on three custom Terraform modules:
 
 ### VPC Module
 
-**Related Repository:**  
+**Related Repository:**
 [eks-enterprise-terraform-vpc](https://github.com/obreo/eks-enterprise-terraform-vpc.git)
 
 It creates four subnets based on two availability zones, two are private where EKS cluster resides, while worker node resides in a single availability zone subnet, and two public where NAT gateway resides. In addition to Internet and Egress-Only gateways.
