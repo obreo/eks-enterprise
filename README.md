@@ -88,9 +88,7 @@ For more information, see the [repository]()
 ## Application CI/CD
 
 **Related Repository:**
-[eks-enterprise-application-backend](https://github.com/obreo/eks-enterprise-application-backend)
-
-[eks-enterprise-application-frontend](https://github.com/obreo/eks-enterprise-application-frontend)
+[eks-enterprise-application-backend](https://github.com/obreo/eks-enterprise-application-backend) | [eks-enterprise-application-frontend](https://github.com/obreo/eks-enterprise-application-frontend)
 
 The applications are containerized and pushed to ECR using GitHub Actions. The workflow builds the Docker image, tags it, and pushes it to the ECR repository based on the branch environment.
 
